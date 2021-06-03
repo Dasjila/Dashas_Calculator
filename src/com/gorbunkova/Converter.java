@@ -35,7 +35,7 @@ public class Converter extends Operation {
                 if (a == 10) {c = "C";}
                 if (b > 0) {d = conv.get(b);}
             }
-            if (b == 0 && a == 10) {
+            if (b == 0 || a == 10) {
                 System.out.println(c);
             }
             if (b > 0 && result > 10) {
